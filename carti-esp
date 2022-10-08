@@ -1,4 +1,4 @@
---kiriot22s esp if i get lazy on crating esp
+--kiriot22s esp
 --Settings--
 local ESP = {
     Enabled = false,
@@ -7,12 +7,12 @@ local ESP = {
 	BoxSize = Vector3.new(4,6,0),
     Color = Color3.fromRGB(0,255,255),
     FaceCamera = false,
-    Names = true,
-    TeamColor = true,
+    Names = false,
+    TeamColor = false,
     Thickness = 2,
     AttachShift = 1,
-    TeamMates = true,
-    Players = true,
+    TeamMates = false,
+    Players = false,
     
     Objects = setmetatable({}, {__mode="kv"}),
     Overrides = {}
